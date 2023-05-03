@@ -3,14 +3,35 @@
 ![FAKE REST API](./image/fakeRestAPI.png)
 
 ```JSON
-{
-    "id": 1,
-    "first_name": "Nickolaus",
-    "last_name": "Ogers",
-    "email": "nogers0@blog.com",
-    "gender": "Male",
-    "roleId": 3
-}
+"employess": [
+    {
+        "id": 1,
+        "first_name": "Nickolaus",
+        "last_name": "Ogers",
+        "email": "nogers0@blog.com",
+        "gender": "Male",
+        "roleId": 3
+    }
+]
+```
+
+<br>
+
+```JSON
+  "roles": [
+    {
+      "id": 1,
+      "name": "Manager"
+    },
+    {
+      "id": 2,
+      "name": "Engineer"
+    },
+    {
+      "id": 3,
+      "name": "Intern"
+    }
+  ]
 ```
 
 <br>
